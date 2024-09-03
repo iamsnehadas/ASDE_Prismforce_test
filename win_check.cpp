@@ -13,8 +13,9 @@ bool check(int no_of_boons, int no_of_recharges, int initial_power, ll enemy_pow
         /*
         If the enemy is the 3rd or 7th enemy, then they are endured with power to 
         regenerate themselves once with half of their initial power and can attack Abhimanyu from behind 
-        if he is battling in iteratively next circle, that is, the 4th or 8th enemy. So, when the 4th or 8th enemy 
-        is encountered, the power of the 3rd and 7th enemy respectively is added to the power of the 4th and 8th enemy.
+        if he is battling in iteratively next circle, that is, the 4th or 8th enemy. So, when the 4th or 
+        8th enemy is encountered, the power of the 3rd and 7th enemy respectively is added to the power
+        of the 4th and 8th enemy.
         */
         if(i == 3 || i == 7) {
             enemy_power[i] += enemy_power[i - 1] / 2;  
@@ -71,8 +72,10 @@ int main() {
 }
 
 /*
-Time Complexity: O(N), where, N = 11, i.e., since, the size of the input array is fixed, hence, the time complexity is constant, i.e., Time Complexity: O(1)
-Space Complexity: O(N), where N = 11, i.e., since, the size of the input array is fixed, hence, the time complexity is constant, i.e., Space Complexity: O(1)
+Time Complexity: O(N), where, N = 11, i.e., since, the size of the input array is fixed, hence, 
+the time complexity is constant, i.e., Time Complexity: O(1)
+Space Complexity: O(N), where N = 11, i.e., since, the size of the input array is fixed, hence, 
+the time complexity is constant, i.e., Space Complexity: O(1)
 */
 
 /*
