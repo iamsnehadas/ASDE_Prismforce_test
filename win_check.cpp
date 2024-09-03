@@ -20,6 +20,11 @@ bool check(int no_of_boons, int no_of_recharges, int initial_power, ll enemy_pow
             enemy_power[i] += enemy_power[i - 1] / 2;  
         }
     }
+    /*
+    This loop can also be avoided if this is done:
+        enemy_power[3] += enemy_power[2] / 2;  
+        enemy_power[7] += enemy_power[6] / 2;  
+    */
     for(int i = 0; i < 11; i++) {
         /*If Abimanyu enters a circle with power less than the enemy, he loses.*/
         if(current_power < enemy_power[i]) {
@@ -66,8 +71,8 @@ int main() {
 }
 
 /*
-Time Complexity: O(N)
-Space Complexity: O(N)
+Time Complexity: O(N), where, N = 11, i.e., since, the size of the input array is fixed, hence, the time complexity is constant, i.e., Time Complexity: O(1)
+Space Complexity: O(N), where N = 11, i.e., since, the size of the input array is fixed, hence, the time complexity is constant, i.e., Space Complexity: O(1)
 */
 
 /*
