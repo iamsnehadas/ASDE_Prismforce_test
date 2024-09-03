@@ -23,3 +23,51 @@ Given:
 
 </p>
 
+<p>
+  <h1>Test Case</h1>
+  <br>
+  <h3>Test Case 1</h3>
+
+
+
+    Input:-
+
+    3 2 32
+    12 18 16 6 8 11 20 10 7 8 10
+
+    where,
+    no_of_boons = 3
+    no_of_recharges = 2
+    initial_power = 32
+    enemy_power = {12, 18, 16, 6, 8, 11, 20, 10, 7, 8, 10}
+
+    Output:-
+
+    Yes, Abhimanyu can cross the Chakravyuh.
+
+
+
+
+<h3>Test Case 2</h3>
+    
+    Input:-
+    
+    1 1 100
+    45 70 55 90 60 85 75 110 95 120 80
+
+    where,
+    no_of_boons = 1
+    no_of_recharges = 1
+    initial_power = 100
+    enemy_power[11] = {45, 70, 55, 90, 60, 85, 75, 110, 95, 120, 80};
+
+    Output:-
+    No, Abhimanyu cannot cross the Chakravyuh.
+
+
+ 
+ 
+<h4>Write an algorithm to find if Abhimanyu can cross the Chakravyuh and test it with two sets of test cases.</h4>
+
+</p>
+
