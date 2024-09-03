@@ -18,14 +18,11 @@ Given:
   <li> k3 and k7 enemies are endured with power to regenerate themselves once with half of their initial power and can attack Abhimanyu from behind if he is battling in iteratively next circle. </li>
  </ol>
  
- 
 <h4>Write an algorithm to find if Abhimanyu can cross the Chakravyuh and test it with two sets of test cases.</h4>
 
 </p>
-
 <p>
   <h1>Test Case</h1>
-  <br>
   <h3>Test Case 1</h3>
 
 
