@@ -63,8 +63,7 @@ Given:
 
 
  
- 
-<h4>Write an algorithm to find if Abhimanyu can cross the Chakravyuh and test it with two sets of test cases.</h4>
+
 
 </p>
 
