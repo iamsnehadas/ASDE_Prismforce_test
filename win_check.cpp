@@ -41,13 +41,13 @@ bool check(int no_of_boons, int no_of_recharges, int initial_power, ll enemy_pow
             circle by using boons.
             */
             if(enemy_power[i + 1] > current_power) {
-                if(recharges_used < no_of_recharges) {
-                    current_power += initial_power;
-                    recharges_used++;
-                }
-                else if(boons_used < no_of_boons) {
+                if(boons_used < no_of_boons) {
                     enemy_power[i + 1] = 0;
                     boons_used++;
+                }
+                else if(recharges_used < no_of_recharges) {
+                    current_power = initial_power; //recharges to initial power (i.e. the maximum power)
+                    recharges_used++;
                 }
             }
         }
